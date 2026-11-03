@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>上岸计划</title>
+<meta name="description" content="国考、省考和事业编备考工具">
+<meta name="theme-color" content="#17405e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="上岸计划">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+  <nav class="nav" id="nav" aria-label="主导航"></nav>
+  <div class="main">
+    <header class="top"><h1 id="pageTitle">上岸计划</h1><button class="sync" id="syncPill" type="button">本机已保存</button></header>
+    <main id="view" tabindex="-1"></main>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="data/q1-changshi-yanyu.js"></script>
+<script src="data/q2-shuliang-panduan.js"></script>
+<script src="data/q3-ziliao.js"></script>
+<script src="data/essays.js"></script>
+<script src="data/guide.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

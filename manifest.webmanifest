@@ -1,0 +1,2 @@
+{"name":"上岸计划","short_name":"上岸计划","description":"国考、省考和事业编备考工具","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f6f3ec","theme_color":"#17405e","lang":"zh-CN",
+"icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"}]}
